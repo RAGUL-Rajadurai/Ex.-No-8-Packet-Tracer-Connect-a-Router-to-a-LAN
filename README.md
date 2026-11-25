@@ -1,5 +1,5 @@
 # Ex. No: 8   Packet Tracer: Connect a Router to a LAN
-# Date: ___________
+# Date: 25.11.2026
 ________________________________________<br>
 # Objective
 Configure and verify router LAN/WAN interfaces in Cisco Packet Tracer and test end-to-end connectivity.<br>
@@ -112,9 +112,23 @@ ________________________________________<br>
 ________________________________________<br>
 # Output (Attach Screenshots)
 •	show ip interface brief on R1 and R2 (after configuration)<br>
+<img width="1917" height="1022" alt="image" src="https://github.com/user-attachments/assets/feed89b8-f60b-4a3f-b31b-144d44c15bdb" />
+
+<img width="1917" height="1026" alt="image" src="https://github.com/user-attachments/assets/dedc9a88-fda5-49fa-a880-ff0a268b631c" />
+
 •	show ip route on R1 and R2<br>
+<img width="1917" height="1013" alt="image" src="https://github.com/user-attachments/assets/44fbdca1-5cf8-4de9-bbbc-b8f5487c027f" />
+
+<img width="1917" height="1017" alt="image" src="https://github.com/user-attachments/assets/3007dc72-bfaa-4036-80e1-6b911b739a1c" />
+
 •	Successful ping PC1 → PC4; R2 → PC2<br>
+<img width="1902" height="1016" alt="image" src="https://github.com/user-attachments/assets/8fcca19a-f7b4-4db1-a17b-6a231051be95" />
+<img width="1912" height="1020" alt="image" src="https://github.com/user-attachments/assets/4ecd15c8-fecb-4cba-ba03-461f42c443ae" />
+
 •	Interface up messages after no shutdown on each link <br>
+<img width="1917" height="1002" alt="image" src="https://github.com/user-attachments/assets/25ff5d1d-6b1d-49d4-b968-cae4163ab574" />
+<img width="1917" height="998" alt="image" src="https://github.com/user-attachments/assets/2e478b9e-fe39-4d4a-9113-65577fb70ec2" />
+
 ________________________________________<br>
 # Result
 R1 and R2 were configured with correct IPv4 addresses and interface descriptions, links were brought up, routing tables showed connected networks, and end-to-end connectivity between PCs across the WAN link was verified using pings. The configurations were saved to NVRAM for persistence.<br>
